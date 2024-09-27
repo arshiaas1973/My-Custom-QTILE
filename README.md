@@ -11,7 +11,7 @@ If you already don't have pulseaudio installed
 You should run this command:
 > sudo pacman -S pulseaudio
 
-> sudo pacman -S coreutils git bc libpulse playerctl amixer feh flameshot scrot gawk qtile alacritty acpilight picom network-manager-applet kdeconnect hplip cups
+> sudo pacman -S coreutils git bc libpulse playerctl amixer feh flameshot scrot gawk qtile alacritty acpilight picom network-manager-applet xorg-setxkbmap kdeconnect hplip cups
 
 Note that in the config hp printer system tray and KDE Connect is used\
 You can remove those dependencies from autostart.sh file\
