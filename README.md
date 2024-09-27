@@ -11,8 +11,11 @@ If you already don't have pulseaudio installed
 You should run this command:
 > sudo pacman -S pulseaudio
 
-> sudo pacman -S coreutils git bc libpulse playerctl amixer feh flameshot scrot gawk qtile alacritty acpilight
+> sudo pacman -S coreutils git bc libpulse playerctl amixer feh flameshot scrot gawk qtile alacritty acpilight picom network-manager-applet kdeconnect hplip cups
 
+Note that in the config hp printer system tray and KDE Connect is used\
+You can remove those dependencies from autostart.sh file\
+\
 If you haven't install xfce or any other popular desktop environments by default\
 You should run this command: 
 > sudo pacman -S libnotify dunst
@@ -24,5 +27,10 @@ Press Y to install the packages.
 
 > git clone https://github.com/arshiaas1973/My-Custom-QTILE.git -o ~/.config/qtile
 
+> cd My-Custom-QTILE
+
+> mv scripts ~
+
+> mv picom ~/.config
 
 
