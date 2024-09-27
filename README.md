@@ -20,7 +20,8 @@ You should run this command:
 Press Y to install the packages.
 
 #### After writing those command do this :
-> mkdir -p ~/.config/qtile\
+> mkdir -p ~/.config/qtile
+
 > git clone https://github.com/arshiaas1973/My-Custom-QTILE.git -o ~/.config/qtile
 
 
