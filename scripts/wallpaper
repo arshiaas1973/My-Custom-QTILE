@@ -1,0 +1,6 @@
+#!/bin/bash
+while true; do
+  echo "~/Desktop/Wallpaper/$((1 + SRANDOM % 5)).jpg"
+  swww img "$HOME/Desktop/Wallpaper/$((1 + SRANDOM % 5)).jpg" --transition-fps 10
+  sleep 2m
+done
